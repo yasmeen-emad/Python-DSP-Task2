@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+0# -*- coding: utf-8 -*-
 """
 Created on Wed Feb 28 04:01:49 2018
 
@@ -13,14 +13,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 o = math.sin(math.radians(90))
 
-duration1=5
-duration2=4
-fs=44100
-f=300
-f1=440
-f2=4
 t = np.arange(0.0, 400, 0.005)      #np.arange(start, stop=None, step=1)
-t1 = np.arange(0.0, 200, 0.005)
+t1 = np.arange(0.0, 2000, 0.005)
 #multiply fun
 y=np.sin( t )
 x=np.cos(t)
