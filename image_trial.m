@@ -1,3 +1,4 @@
+% this is a matlab file 
 % Read the images in   
 %Image1=double(imread('1.png'))/255;
 %Image2=double(imread('2.bmp'))/255;
